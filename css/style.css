@@ -492,12 +492,14 @@ h2 {
 }
 
 .contact-column {
-    width: 50%;
+    width: 38%;
 }
 
 .contact-title {
     font-size: 49px;
     line-height: 57px;
+    margin-left: 0;
+    display: flex;
 }
 
 .contact-instruction {
