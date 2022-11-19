@@ -251,7 +251,7 @@ h2 {
     content: "";
     width: 332px;
     height: 4px;
-    background-color: var(--color-redish);
+    background-color: var(--accent-color);
     display: block;
     margin-top: 50px;
 }
@@ -270,6 +270,10 @@ h2 {
     z-index: 2;
 }
 
+.benefits-box1 {
+    --accent-color: var(--color-redish);
+}
+
 .benefits-box1 .benefits-img {
     margin-right: 117px;
     margin-bottom: 38px;
@@ -279,7 +283,7 @@ h2 {
     content: "";
     width: 180px;
     height: 180px;
-    background-color: var(--color-redish);
+    background-color: var(--accent-color);
     display: block;
     border-radius: 40px;
     position: absolute;
@@ -295,6 +299,7 @@ h2 {
 
 .benefits-box2 {
     padding: 0 20px 0 70px;
+    --accent-color: var(--color-primary);
 }
 
 .benefits-box2 .benefits-img {
@@ -308,7 +313,7 @@ h2 {
     content: "";
     width: 320px;
     height: 320px;
-    background-color: var(--color-primary);
+    background-color: var(--accent-color);
     display: block;
     border-radius: 50%;
     position: absolute;
@@ -326,7 +331,7 @@ h2 {
 }
 
 .benefits-box3 {
-    background-color: var(--color-green);
+    --accent-color: var(--color-green);
     display: flex;
 }
 
@@ -348,7 +353,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-green);
+    background-color: var(--accent-color);
     border: none;
     margin-left: 60px;
 }
