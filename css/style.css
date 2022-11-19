@@ -590,7 +590,7 @@ h2 {
 }
 
 .form-checkbox input:checked ~ .checkbox {
-    background-image: url(../assets 2/Checkmark.svg);
+    background-image: url("../assets 2/Checkmark.svg");
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
