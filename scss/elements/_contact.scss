@@ -40,21 +40,32 @@
   &__details {
     display: flex;
     justify-content: flex-start;
-    color: var(--color-grey);
     align-items: center;
 
-    &__item {
-      color: var(--color-grey);
+    @include mobile {
+      margin-bottom: 30px;
+      flex-direction: column;
+      line-height: 30px;
+      align-items: flex-start;
+    }
+
+    a {
+      color: $color-grey;
       font-weight: 500;
       text-decoration: none;
+      margin-right: 25px;
 
-
-      &:first-of-type {
-        margin-right: 20px;
+      @include mobile {
+        display: flex;
+        flex-direction: row;
       }
 
       img {
-        margin-right: 10px;
+        margin-right: 1px;
+
+        @include mobile {
+          margin-right: 7px;
+        }
       }
     }
   }
